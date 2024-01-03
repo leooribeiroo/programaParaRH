@@ -38,6 +38,30 @@ let excluirVaga = ""
 
 let opcao;
 
-do{
-    opcao = parseFloat(prompt("Olá, bem vindo à nossa plataforma. Seleciona uma das opções a seguir para prosseguir:\n1. Listar Vagas Disponíveis\n2.Criar Nova Vaga\n3.Visualizar Vaga Existente\n4.Cadastrar Novo Candidato\n5.Excluir Vaga\n6.Sair"))
-}while(opcao!==6)
+alert("Olá, bem vindo à nossa plataforma. ")
+
+do {
+    opcao = parseFloat(prompt("Seleciona uma das opções a seguir para prosseguir: \n1.Listar Vagas Disponíveis\n2.Criar Nova Vaga\n3.Visualizar Vaga Existente\n4.Cadastrar Novo Candidato\n5.Excluir Vaga\n6.Sair"))
+switch (opcao) {
+        case 1:
+            break;
+
+        case 2:
+            break;
+
+        case 3:
+            break;
+
+        case 4:
+            break;
+
+        case 5:
+            break;
+
+        case 6:
+            break;
+
+        default: alert("Opção Inválida. Tente Novamente")
+            break;
+    }
+} while (opcao !== 6)
